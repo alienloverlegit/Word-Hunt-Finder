@@ -8,4 +8,4 @@ Once you have a good, decently-focused shot of the screen (check the test images
 Once Enter is pressed two times in a row, the program should output the character grid and all possible words that can be created from longest to shortest within 5 seconds.
 
 
-- Evan Wang (alien_lover)
+Evan Wang (alien_lover)
