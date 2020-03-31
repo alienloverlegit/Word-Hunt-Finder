@@ -1,7 +1,7 @@
 # Word-Hunt-Finder
 Helps you find words in Word Hunt with a simple webcam.
 
-Uses python packages OpenCV, NumPy, and Python-tesseract, which can be downloaded with the help of Anaconda and the environment.yml file provided.
+Uses python packages OpenCV, NumPy, and Python-tesseract, which can be downloaded with the help of Anaconda and the environment.yml file provided. The possible words in worddict.txt were obtained and filtered from Collins Official Scrabble Words 2019.
 
 
 
