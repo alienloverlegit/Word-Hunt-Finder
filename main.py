@@ -89,7 +89,7 @@ img = cv2.resize(img, (int(HEIGHT/RATIO), HEIGHT))
 
 # cv2.imshow("In-Between image sent to OCR", img)
 # cv2.waitKey(0)
-# cv2.imwrite("test_board3.png", img)
+# cv2.imwrite("up_board4.png", img)
 
 grid_letters = get_ocr(img, HEIGHT, GRID_SIZE)
 print(grid_letters)
@@ -101,7 +101,5 @@ count = 0
 for word in words:
     if count % PRINT_INTERVAL == 0:
         print()
-    if len(word) < 9:
-        print(word, end="\t")
-        count += 1
-
+    print(word, end="\t")
+    count += 1
